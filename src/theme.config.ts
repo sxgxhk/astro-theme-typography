@@ -1,14 +1,14 @@
 export const THEME_CONFIG: App.Locals['config'] = {
   /** blog title */
-  title: "活版印字",
+  title: "零伍柒零灵灵",
   /** your name */
-  author: "Typography",
+  author: "Feng",
   /** website description */
-  desc: "Rediscory the beauty of typography",
+  desc: "一个爱折腾的家伙",
   /** your deployed domain */
-  website: "https://astro-theme-typography.vercel.app/",
+  website: "https://blog.057000.xyz/",
   /** your locale */
-  locale: "en-us",
+  locale: "zh-cn",
   /** theme style */
   themeStyle: "light",
   /** your socials */
@@ -20,19 +20,11 @@ export const THEME_CONFIG: App.Locals['config'] = {
     {
       name: "rss",
       href: "/atom.xml",
-    },
-    {
-      name: "twitter",
-      href: "https://github.com/moeyua/astro-theme-typography",
-    },
-    {
-      name: "mastodon",
-      href: "https://github.com/moeyua/astro-theme-typography",
     }
   ],
   /** your header info */
   header: {
-    twitter: "@moeyua13",
+    twitter: "",
   },
   /** your navigation links */
   navs: [
@@ -55,13 +47,13 @@ export const THEME_CONFIG: App.Locals['config'] = {
   ],
   /** your category name mapping, which the `path` will be shown in the url */
   category_map: [
-    { name: "胡适", path: "hu-shi" },
+    { name: "Feng", path: "feng" },
   ],
   /** your comment provider */
   comments: {
-    disqus: {
-      shortname: "typography-astro",
-    },
+    // disqus: {
+    //   shortname: "typography-astro",
+    // },
     // giscus: {
     //   repo: 'moeyua/astro-theme-typography',
     //   repoId: 'R_kgDOKy9HOQ',
@@ -76,9 +68,9 @@ export const THEME_CONFIG: App.Locals['config'] = {
     //   lang: 'zh-CN',
     //   loading: 'lazy',
     // },
-    // twikoo: {
-    //   envId: "https://twikoo-tau-flame.vercel.app",
-    // }
+     twikoo: {
+       envId: "https://twikoo.iblue.eu.org/",
+     }
   }
 }
 
